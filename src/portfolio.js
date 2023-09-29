@@ -23,7 +23,7 @@ const greeting = {
   username: "Paul Kim",
   title: "Hi! I'm Paul",
   subTitle: emoji(
-    "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -36,7 +36,7 @@ const socialMediaLinks = {
   github: "https://github.com/paulkim24",
   linkedin: "https://www.linkedin.com/in/paul-kim-ucsd/",
   gmail: "paulkim103@gmail.com",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  stackoverflow: "https://stackoverflow.com/users/22204977/paul-kim",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -84,11 +84,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+    },,
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -114,7 +110,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -150,11 +146,11 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "60%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -178,10 +174,11 @@ const workExperiences = {
       company: "DeepBrain AI",
       companylogo: require("./assets/images/deepbrainLogo.png"),
       date: "July 2023 – Sep 2023",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Technologies Used: Javascript, React, Next.js, Docker, Kubernetes, AWS, MongoDB",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed chatbots for AI Human platform using JavaScript and React, tailored for demos and seminars.",
+        "Guided clients through the intricacies of AI Studio and AI Human, offering hands-on support and leveraging a MongoDB-based backend to access data of 100k+ users.", 
+        "Fostered consistent and streamlined communication with the Engineering Team based in Korea."
       ]
     },
     {
@@ -189,21 +186,31 @@ const workExperiences = {
       company: "Aeyesafe",
       companylogo: require("./assets/images/aeyesafeLogo.jpeg"),
       date: "Nov 2022 – Jan 2023",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Technologies used: Kotlin, React.js, Node.js, Redis, MongoDB, Figma",
+      descBullets: [
+        "Contributed to the development of the PZ-10 sleep sensor & monitoring system, a backend platform designed to assess the sleep quality of seniors and pinpoint potential health concerns (96% prediction accuracy).",
+        "Designed a library analyzing sensor data across Redis and MongoDB, ensuring alerts for irregularities.",
+        "Collaborated on the Aeyesafe Android App using Android SDK, Kotlin, and provided UI design input via Figma."
+      ]
     },
     {
       role: "Projects Chair",
       company: "IEEE",
       companylogo: require("./assets/images/ieeeLogo.webp"),
       date: "Sep 2022 – Dec 2022",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      descBullets: [
+        "I coordinate and lead a 10-week quarterly hackathon at UC San Diego, creating a competitive and participatory platform for students."
+      ]
     },
     {
       role: "Code Coach",
       company: "The Coder School",
       companylogo: require("./assets/images/coderSchoolLogo.webp"),
       date: "Sep 2020 – May 2022",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      descBullets: [
+        "Mentor students (7-12) in Scratch, Python, and Java; design tailored lesson plans fostering creativity, delivered both virtually and in-person.",
+        "Coordinated and hosted day long coding camps for 10-15 students, teaching Java through Minecraft Education and adapted the lesson plan to the students’ preferred pace and difficulty."
+      ]
     }
   ]
 };
