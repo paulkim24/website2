@@ -84,7 +84,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },,
+    },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
